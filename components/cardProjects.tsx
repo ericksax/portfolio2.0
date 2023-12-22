@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Badge } from "./ui/badge";
 import Image from "next/image";
+
 type ProjectProps = {
   project: {
     name: string;
@@ -17,17 +17,10 @@ type ProjectProps = {
 const CardProject = ({ project }: ProjectProps) => {
   return (
     <Link href={project.link}>
-      <div className="border mt-8 p-4 border-gray-800 rounded-lg flex flex-col items-center justify-center gap-4 max-w-[260px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer">
+      <div className="mt-8 p-4 flex flex-col items-center justify-center gap-4 w-[clamp(200px,20vw,400px)] min-h-[284px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer">
+        <Image src={"/foto.png"} width={400} height={400} alt={""} />
         <strong>{project.name}</strong>
-        <Image src={"/foto.png"} width={180} height={180} alt={""} />
-        <article className="text-gray-400 text-[12px]">
-          {project.description}
-        </article>
-        <aside className="flex gap-2 w-full">
-          <Badge variant={"secondary"} color="red">
-            {project.language}
-          </Badge>
-        </aside>
+        <aside className="flex gap-2 w-full"></aside>
       </div>
     </Link>
   );
