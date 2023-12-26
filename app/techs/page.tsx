@@ -17,10 +17,10 @@ import {
 const Techs = () => {
   return (
     <section className="max-w-4xl mx-auto">
-      <h1 className="text-3xl text-gray-200 font-semibold mb-8 mt-16">
+      <h1 className="text-3xl text-foreground font-semibold mb-8 mt-16">
         Sobre as tecnologias
       </h1>
-      <div className="text-gray-400 text-lg border border-gray-800 rounded-lg p-4 mt-10">
+      <div className="text-foreground text-lg border border-border rounded-lg p-4 mt-10">
         <p className="ident-8 text-balance text-justify">
           <span className="pl-8">
             "Acredito que não há uma linguagem de programação melhor do que
@@ -35,7 +35,7 @@ const Techs = () => {
           meio para alcançar nossos objetivos como desenvolvedores."
         </p>
       </div>
-      <div className=" flex gap-8 justify-center text-gray-200 text-lg border border-gray-800 rounded-lg p-4 mt-8">
+      <div className=" flex gap-8 justify-center text-foreground text-lg border border-border rounded-lg p-4 mt-8">
         <FaReact size={32} color="#61DBFB" />
         <FaNode size={32} color="#83CD29" />
         <FaHtml5 size={32} color="#E34C26" />

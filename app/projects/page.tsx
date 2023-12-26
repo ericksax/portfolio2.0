@@ -16,11 +16,11 @@ const Projects = async () => {
   return (
     <Wrapper>
       <section className="max-w-4xl mx-auto">
-        <h1 className="text-3xl text-gray-200 font-semibold mb-8 mt-16">
+        <h1 className="text-3xl text-foreground font-semibold mb-8 mt-16">
           Projetos
         </h1>
         <header className="border border-b border-border rounded-lg p-4 w-full m-auto mt-16 ">
-          <article className="text-gray-400 text-lg">
+          <article className="text-foreground text-lg">
             Aqui estão alguns dos meus projetos que tenho desenvolvido. Todos
             eles estão no meu perfil do github, você pode conferir mais detalhes
             clicando sobre eles. 🚀
