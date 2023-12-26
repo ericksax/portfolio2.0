@@ -16,7 +16,10 @@ type ProjectProps = {
 
 const CardProject = ({ project }: ProjectProps) => {
   return (
-    <Link href={project.link}>
+    <Link
+      href={project.link}
+      className="flex w-full h-full justify-center items-center "
+    >
       <div className="mt-8 p-4 flex flex-col items-center justify-center gap-4 w-[clamp(200px,20vw,400px)] min-h-[284px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer">
         <Image src={"/foto.png"} width={400} height={400} alt={""} />
         <strong>{project.name}</strong>
