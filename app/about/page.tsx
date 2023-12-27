@@ -2,12 +2,12 @@ import { GithubIcon, Instagram, Linkedin, Send } from "lucide-react";
 
 const Sobre = () => {
   return (
-    <section className="max-w-4xl mx-auto text-xl mt-[72px] text-justify ">
+    <section className="max-w-4xl mx-auto text-xl mt-16 text-justify ">
       <h1 className="text-3xl text-foreground font-semibold mb-8">
         Sobre mim<span className="float-right text-[22px]"> 👨‍⚕️ -{">"} 👨‍💻 </span>{" "}
       </h1>
 
-      <div className="mt-16 text-foreground text-md space-y-4">
+      <div className="mt-8 text-foreground text-md space-y-4 border border-border rounded-lg p-8">
         <p className="ident-8 text-balance">
           <span className="pl-8">
             Sempre estou ligado nas novidades em tecnologia, é o que me motiva!
