@@ -11,6 +11,7 @@ const Projects = async () => {
     "/dashClient.png",
     "/coffeeDelivery.png",
     "/foto.png",
+    "/totext.png",
   ];
 
   return (

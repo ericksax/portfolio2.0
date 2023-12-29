@@ -1,5 +1,8 @@
+import { Wrapper } from "@/components/wrapper";
+
 const Courses = () => {
   return (
+    <Wrapper>
     <section className="max-w-4xl mx-auto">
       <h1 className="text-3xl text-foreground font-semibold mb-16 mt-16">
         Cursos
@@ -7,7 +10,7 @@ const Courses = () => {
 
       <ol className="relative border-s border-border dark:border-border">
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-background rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
+          <div className="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
           <time className="mb-1 text-sm font-normal leading-none text-foreground dark:text-foreground">
             Dezembro 2023
           </time>
@@ -19,7 +22,7 @@ const Courses = () => {
           </p>
         </li>
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-background rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
+          <div className="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
           <time className="mb-1 text-sm font-normal leading-none text-foreground dark:text-foreground">
             Fevereiro 2023
           </time>
@@ -34,7 +37,7 @@ const Courses = () => {
           </p>
         </li>
         <li className="mb-10 ms-4">
-          <div className="absolute w-3 h-3 bg-background rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-background"></div>
+          <div className="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
           <time className="mb-1 text-sm font-normal leading-none text-foreground dark:text-foreground">
             Abril 2022
           </time>
@@ -48,7 +51,7 @@ const Courses = () => {
           </p>
         </li>
         <li className="ms-4 mb-10">
-          <div className="absolute w-3 h-3 bg-background rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-background"></div>
+          <div className="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
           <time className="mb-1 text-sm font-normal leading-none text-foreground dark:text-foreground">
             Janeiro 2021
           </time>
@@ -61,7 +64,7 @@ const Courses = () => {
           </p>
         </li>
         <li className="ms-4">
-          <div className="absolute w-3 h-3 bg-background rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-background"></div>
+          <div className="absolute w-3 h-3 bg-primary rounded-full mt-1.5 -start-1.5 border border-border dark:border-border dark:bg-foreground"></div>
           <time className="mb-1 text-sm font-normal leading-none text-foreground dark:text-foreground">
             Junho 2019
           </time>
@@ -70,11 +73,12 @@ const Courses = () => {
           </h3>
           <p className="text-base font-normal text-foreground dark:text-foreground">
             Com a intenção de conhecer a área da tecnologia ingressei no curso
-            de Análise e desenvolvimento de sistemas.
+            de Análise e desenvolvimento de sistemas. Vi que era isso mesmo que eu queria.
           </p>
         </li>
       </ol>
     </section>
+    </Wrapper>
   );
 };
 
