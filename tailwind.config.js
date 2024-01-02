@@ -60,9 +60,12 @@ module.exports = {
         },
       },
       fontSize: {
-        headingClamp: "clamp(2rem, 3.6vw, 8rem)",
+        headingClamp: "clamp(2rem, 3.6vw, 4rem)",
         headingClamp2: "clamp(1.5rem, 1.6vw, 3rem)",
-        articleClamp: "clamp(1.1rem, 1vw, 2rem)",
+        articleClamp: "clamp(1rem, 1.8vw, 1.2rem)",
+      },
+      padding: {
+        pd1: "clamp(1rem, 1.4vw, 2rem)",
       },
       borderRadius: {
         lg: "var(--radius)",

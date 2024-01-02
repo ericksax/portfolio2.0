@@ -3,7 +3,7 @@ interface WrapperProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 const Wrapper = ({ children }: WrapperProps) => {
-  return <div className="p-8 w-full h-full">{children}</div>;
+  return <div className="p-pd1 w-full h-full">{children}</div>;
 };
 
 export { Wrapper };

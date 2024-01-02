@@ -20,7 +20,7 @@ const Projects = async () => {
         <h1 className="text-headingClamp2 text-foreground font-semibold mb-8 mt-8">
           Projetos
         </h1>
-        <header className="border border-b border-border rounded-lg p-4 w-full m-auto mt-8 ">
+        <header className="border border-b border-border rounded-lg p-pd1 w-full m-auto mt-8 ">
           <article className="text-foreground text-articleClamp">
             Aqui estão alguns dos meus projetos que tenho desenvolvido. Todos
             eles estão no meu perfil do github, você pode conferir mais detalhes
