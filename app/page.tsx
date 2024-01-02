@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Wrapper>
       <section className="max-w-4xl mx-auto  mt-[72px]">
-        <h1 className="text-[clamp(120px, 20vw, 420px)] font-semibold ">
+        <h1 className=" text-headingClamp font-semibold ">
           👋 Oi, eu sou Erick... Fullstack Developer! 😊
         </h1>
         <article className="space-x-4 mt-8 ident-8 text-foreground text-md">
@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       <div className="max-w-4xl mx-auto mt-8 ">
-        <strong className="px-4 py-2 rounded-full bg-accent text[clamp(2px, 70vw, 128px)]">
+        <strong className="px-4 py-2 rounded-full bg-accent text-[12px]">
           Midias sociais e contato 💌 ☎{" "}
         </strong>
       </div>

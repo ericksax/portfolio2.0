@@ -1,13 +1,15 @@
+import { Wrapper } from "@/components/wrapper";
 import { GithubIcon, Instagram, Linkedin, Send } from "lucide-react";
 
 const Sobre = () => {
   return (
+    <Wrapper>
     <section className="max-w-4xl mx-auto text-xl mt-16 text-justify ">
-      <h1 className="text-3xl text-foreground font-semibold mb-8">
+      <h1 className="text-headingClamp2 text-foreground font-semibold mb-8">
         Sobre mim<span className="float-right text-[22px]"> 👨‍⚕️ -{">"} 👨‍💻 </span>{" "}
       </h1>
 
-      <div className="mt-8 text-foreground text-md space-y-4 border border-border rounded-lg p-8">
+      <div className="mt-8 text-foreground text-articleClamp space-y-4 border border-border rounded-lg p-8">
         <p className="ident-8 text-balance">
           <span className="pl-8">
             Sempre estou ligado nas novidades em tecnologia, é o que me motiva!
@@ -44,6 +46,7 @@ const Sobre = () => {
         </p>
       </div>
     </section>
+    </Wrapper>
   );
 };
 export default Sobre;

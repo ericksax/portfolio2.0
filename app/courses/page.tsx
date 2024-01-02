@@ -4,7 +4,7 @@ const Courses = () => {
   return (
     <Wrapper>
     <section className="max-w-4xl mx-auto">
-      <h1 className="text-3xl text-foreground font-semibold mb-16 mt-16">
+      <h1 className="text-headingClamp2 text-foreground font-semibold mb-16 mt-16">
         Cursos
       </h1>
 

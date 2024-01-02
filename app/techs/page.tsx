@@ -1,3 +1,4 @@
+import { Wrapper } from "@/components/wrapper";
 import {
   FaReact,
   FaNode,
@@ -16,6 +17,7 @@ import {
 
 const Techs = () => {
   return (
+    <Wrapper>
     <section className="max-w-4xl mx-auto">
       <h1 className="text-3xl text-foreground font-semibold mb-8 mt-16">
         Sobre as tecnologias
@@ -51,6 +53,7 @@ const Techs = () => {
         <FaLinux size={32} color="#FCC624" />
       </div>
     </section>
+    </Wrapper>
   );
 };
 

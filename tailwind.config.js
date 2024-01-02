@@ -9,7 +9,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'xs': '480px',  // Adiciona um novo ponto de interrupção 'xs'
+      'xs': '480px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
@@ -58,6 +58,11 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+      },
+      fontSize: {
+        headingClamp: "clamp(2rem, 3.6vw, 8rem)",
+        headingClamp2: "clamp(1.5rem, 1.6vw, 3rem)",
+        articleClamp: "clamp(1.1rem, 1vw, 2rem)",
       },
       borderRadius: {
         lg: "var(--radius)",
