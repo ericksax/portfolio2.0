@@ -1,3 +1,4 @@
+import { CardTech } from "@/components/cardTech";
 import { Wrapper } from "@/components/wrapper";
 import {
   FaReact,
@@ -15,6 +16,22 @@ import {
   FaLinux,
 } from "react-icons/fa";
 
+const techList = [
+  <FaReact size={40} color="#61DBFB" />,
+  <FaNode size={40} color="#83CD29" />,
+  <FaHtml5 size={40} color="#E34C26" />,
+  <FaCss3 size={40} color="#264DE4" />,
+  <FaJs size={40} color="#F0DB4F" />,
+  <FaGithub size={40} color="#24292E" />,
+  <FaGit size={40} color="#F05040" />,
+  <FaSass size={40} color="#CC6699" />,
+  <FaNpm size={40} color="#CB3837" />,
+  <FaPhp size={40} color="#777BB4" />,
+  <FaPython size={40} color="#3776AB" />,
+  <FaDocker size={40} color="#2496ED" />,
+  <FaLinux size={40} color="#FCC624" />,
+];
+
 const Techs = () => {
   return (
     <Wrapper>
@@ -22,6 +39,11 @@ const Techs = () => {
         <h1 className="text-3xl text-foreground font-semibold mb-8 mt-16">
           Sobre as tecnologias
         </h1>
+        <div className="grid grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 flex-wrap justify-between text-foreground text-lg px-0 p-4 mt-8">
+          {techList.map((tech) => {
+            return <CardTech>{tech}</CardTech>;
+          })}
+        </div>
         <div className="text-foreground text-lg border border-border rounded-lg p-pd1 mt-10">
           <p className="ident-8 text-balance text-justify">
             <span className="pl-8">
@@ -37,21 +59,6 @@ const Techs = () => {
             em si, mas o meio para alcançar nossos objetivos como
             desenvolvedores."
           </p>
-        </div>
-        <div className=" flex gap-8 flex-wrap justify-center text-foreground text-lg border border-border rounded-lg p-4 mt-8">
-          <FaReact size={32} color="#61DBFB" />
-          <FaNode size={32} color="#83CD29" />
-          <FaHtml5 size={32} color="#E34C26" />
-          <FaCss3 size={32} color="#264DE4" />
-          <FaJs size={32} color="#F0DB4F" />
-          <FaGithub size={32} color="#24292E" />
-          <FaGit size={32} color="#F05032" />
-          <FaSass size={32} color="#CC6699" />
-          <FaNpm size={32} color="#CB3837" />
-          <FaPhp size={32} color="#777BB4" />
-          <FaPython size={32} color="#3776AB" />
-          <FaDocker size={32} color="#2496ED" />
-          <FaLinux size={32} color="#FCC624" />
         </div>
       </section>
     </Wrapper>

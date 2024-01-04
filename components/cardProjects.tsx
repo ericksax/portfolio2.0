@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 type ProjectProps = {
   project: {
@@ -17,16 +18,28 @@ type ProjectProps = {
 
 const CardProject = ({ project, image }: ProjectProps) => {
   return (
-    <Link
-      href={project.link}
-      className="flex w-full h-full justify-center items-center "
-    >
-      <div className="mt-8 p-4 flex flex-col items-center justify-center gap-4 w-[clamp(200px,20vw,400px)] min-h-[284px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer">
-        <Image src={image} width={400} height={400} alt={""} />
+    <div className="flex w-full h-full justify-center items-center border border-border">
+      <div className=" p-pd1 flex flex-col items-center justify-center gap-4 w-[clamp(200px,20vw,400px)] transition-all duration-300 ease-in-out transform hover:scale-105 hover:cursor-pointer">
         <strong>{project.name}</strong>
-        <aside className="flex gap-2 w-full"></aside>
+        <Image src={image} width={400} height={400} alt={""} />
+        <aside className="flex justify-end  items-center gap-4 w-full">
+          <Link
+            href={project.link}
+            target="_blank"
+            className=" text-xs border border-border rounded-md px-4 py-1 bg-gray-300 text-gray-900 hover:bg-gray-800 hover:text-gray-100"
+          >
+            github
+          </Link>
+          <Link
+            href={project.link}
+            target="_blank"
+            className=" text-xs bg-gray-800 text-gray-300 border border-border px-4 py-1 rounded-md hover:bg-gray-300 hover:text-gray-800"
+          >
+            Deploy
+          </Link>
+        </aside>
       </div>
-    </Link>
+    </div>
   );
 };
 

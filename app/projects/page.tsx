@@ -28,7 +28,7 @@ const Projects = async () => {
           </article>
         </header>
 
-        <div className="border border-border rounded-lg grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2 m-auto w-[clamp(260px,100%,896px)] mt-8 gap-[clamp(8px,1.5vw,1.5vw)] ">
+        <div className="rounded-lg grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-2 m-auto w-[clamp(200px,100%,896px)] mt-8 gap-[clamp(1rem,1.5vw,1.8rem)] ">
           {data.map((project: any, index: number) => {
             return (
               <CardProject
