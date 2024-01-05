@@ -34,7 +34,7 @@
 
     --radius: 0.5rem;
   }
-  /* 220.9 39.3% 11%; */
+
   .dark {
     --background: 220 39% 10%;
     --foreground: 227 10% 64%;
@@ -67,7 +67,6 @@
     --radius: 0.5rem;
   }
 }
-
 
 
 @layer base {

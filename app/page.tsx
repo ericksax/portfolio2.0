@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Wrapper>
       <section className="max-w-4xl mx-auto  mt-[72px]">
-        <h1 className=" text-headingClamp font-semibold ">
+        <h1 className=" text-headingClamp font-bold text-accent-foreground">
           👋 Oi, eu sou Erick... Fullstack Developer!
         </h1>
         <article className="space-x-4 mt-8 ident-8 text-foreground text-articleClamp">

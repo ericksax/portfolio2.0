@@ -1,5 +1,7 @@
 import { CardTech } from "@/components/cardTech";
 import { Wrapper } from "@/components/wrapper";
+import { Key } from "lucide-react";
+import React from "react";
 import {
   FaReact,
   FaNode,
@@ -41,7 +43,7 @@ const Techs = () => {
         </h1>
         <div className="grid grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 flex-wrap justify-between text-foreground text-lg px-0 p-4 mt-8">
           {techList.map((tech) => {
-            return <CardTech>{tech}</CardTech>;
+            return <CardTech key={techList}>{tech}</CardTech>;
           })}
         </div>
         <div className="text-foreground text-lg border border-border rounded-lg p-pd1 mt-10">

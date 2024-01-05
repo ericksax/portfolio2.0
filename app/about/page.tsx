@@ -1,5 +1,5 @@
 import { Wrapper } from "@/components/wrapper";
-import { GithubIcon, Instagram, Linkedin, Send } from "lucide-react";
+
 
 const Sobre = () => {
   return (
@@ -11,16 +11,6 @@ const Sobre = () => {
         </h1>
 
         <div className="mt-8 text-foreground text-articleClamp space-y-4 border border-border rounded-lg p-pd1">
-          <p className="ident-8 text-balance">
-            <span className="pl-8">
-              Sempre estou ligado nas novidades em tecnologia, é o que me
-              motiva! Antes{" "}
-            </span>
-            de me jogar nesse universo, me formei em farmacêutico e passei mais
-            de 10 anos trabalhando no varejo. Agradeço muito por tudo que
-            aprendi nessa jornada, mas o que me faz vibrar mesmo é a tecnologia,
-            desenvolver sites, apps, e tudo mais nesse mundo.
-          </p>
           <p>
             <span className="pl-8  text-justify">
               Minha história profissional foi na saúde: formei-me em Farmácia e
