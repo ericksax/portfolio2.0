@@ -7,8 +7,10 @@ import {
   GithubIcon,
   Instagram,
   Linkedin,
-  Send,
 } from "lucide-react";
+
+import {SiWhatsapp} from "react-icons/si" 
+
 
 const Contacts = () => {
   return (
@@ -19,8 +21,7 @@ const Contacts = () => {
         </h1>
         <header className="border border-border rounded-lg p-pd1 mt-8">
           <article className="text-foreground text-articleClamp">
-            Aqui você pode encontrar meus contatos, estou disponível meu
-            whatsApp para trocarmos ideia, vamos construir juntos!! 🚀
+            Aqui você pode encontrar meus contatos, estou disponível para trocarmos ideias, vamos construir juntos!! 🚀
           </article>
         </header>
         <section className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto text-xl mt-8 border h-auto rounded-lg p-4 divide-y md:divide-x divide-border md:divide-y-0">
@@ -66,7 +67,7 @@ const Contacts = () => {
                 variant="outline"
                 className="gap-2 transition-all duration-200 ease-in-out hover:scale-105 "
               >
-                Fale comigo!! <Send size={16} />
+                Fale comigo!! <SiWhatsapp size={16} />
               </Button>
               <DefaultButton>
                 Baixar Curriculo

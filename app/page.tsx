@@ -5,10 +5,9 @@ import {
   GithubIcon,
   Instagram,
   Linkedin,
-  Send,
 } from "lucide-react";
 import Link from "next/link";
-
+import { SiWhatsapp } from "react-icons/si"
 export default function Home() {
   return (
     <Wrapper>
@@ -75,7 +74,7 @@ export default function Home() {
               href={" https://wa.me/5532999902406"}
               className="border border-primary/50 flex px-4 py-2 items-center rounded gap-2 transition-all duration-200 ease-in-out hover:scale-105 "
             >
-              Fale comigo!! <Send size={16} />
+              Fale comigo!! <SiWhatsapp size={16} />
             </Link>
             <DefaultButton>
               Baixar Currículo
