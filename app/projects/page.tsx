@@ -14,10 +14,6 @@ const Projects = async () => {
       link: "https://todo-list-m3erick.vercel.app/",
     },
     {
-      image: "/dashClient.png",
-      link: "https://dash-client.vercel.app/",
-    },
-    {
       image: "/coffeeDelivery.png",
       link: "https://coffee-delivery.vercel.app/",
     },

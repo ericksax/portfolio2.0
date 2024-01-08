@@ -1,5 +1,4 @@
 import { DefaultButton } from "@/components/defaultButton";
-import { Button } from "@/components/ui/button";
 import { Wrapper } from "@/components/wrapper";
 import {
   DownloadIcon,
@@ -27,13 +26,13 @@ export default function Home() {
       </section>
 
       <div className="max-w-4xl mx-auto mt-8 ">
-        <strong className="px-4 py-2 rounded-full bg-accent text-[12px]">
+        <strong className="px-4 py-2 rounded-full bg-accent text-socialHeading">
           Midias sociais e contato 💌 ☎{" "}
         </strong>
       </div>
 
       <section className="grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto text-xl mt-8 border h-auto rounded-lg p-2 divide-y md:divide-x divide-border md:divide-y-0">
-        <div className="flex flex-row sm:flex sm:flex-col justify-evenly gap-4 p-2 justify-ev">
+        <div className="flex flex-row sm:flex sm:flex-col justify-evenly gap-4 p-pd1 justify-ev">
           <Link
             href={"https://www.linkedin.com/in/erickfreitas-dev"}
             target="_blank"
@@ -63,7 +62,7 @@ export default function Home() {
             <Instagram size={32} className="sm:hidden" />
           </Link>
         </div>
-        <aside className="flex flex-col h-full align-center items-center p-2 text-sm">
+        <aside className="flex flex-col h-full align-center items-center p-pd1 text-sm">
           <article className="flex justify-center  text-sm">
             Para informações adicionais, oportunidades de trabalho ou
             simplesmente para network na área de desenvolvimento web, os links
@@ -72,6 +71,7 @@ export default function Home() {
           </article>
           <span className="flex items-center justify-evenly w-full mt-4 flex-wrap gap-8">
             <Link
+              target="_blank"
               href={" https://wa.me/5532999902406"}
               className="border border-primary/50 flex px-4 py-2 items-center rounded gap-2 transition-all duration-200 ease-in-out hover:scale-105 "
             >
