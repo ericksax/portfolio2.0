@@ -173,7 +173,7 @@ const Techs = () => {
         <div className="text-foreground text-lg border border-border rounded-lg p-pd1 mt-10">
           <p className="ident-8 text-balance text-justify">
             <span className="pl-8">
-              "Acredito que não há uma linguagem de programação melhor do que
+              Acredito que não há uma linguagem de programação melhor do que
               outra. Não se trata de{" "}
             </span>
             superioridade, mas sim de encontrar a ferramenta certa para o
@@ -183,7 +183,7 @@ const Techs = () => {
             as linguagens de programação como uma caixa de ferramentas, onde
             escolhemos a ferramenta certa para a tarefa específica. Não é o fim
             em si, mas o meio para alcançar nossos objetivos como
-            desenvolvedores."
+            desenvolvedores.
           </p>
         </div>
       </section>
