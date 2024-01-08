@@ -5,13 +5,30 @@ const Projects = async () => {
   const result = await fetch("https://pinned.thrzl.xyz/ericksax", {
     next: { revalidate: 10 },
   });
+
   const data = await result.json();
+
   const imageList = [
-    "/todoList.png",
-    "/dashClient.png",
-    "/coffeeDelivery.png",
-    "/foto.png",
-    "/totext.png",
+    {
+      image: "/todoList.png",
+      link: "https://todo-list-m3erick.vercel.app/",
+    },
+    {
+      image: "/dashClient.png",
+      link: "https://dash-client.vercel.app/",
+    },
+    {
+      image: "/coffeeDelivery.png",
+      link: "https://coffee-delivery.vercel.app/",
+    },
+    {
+      image: "/foto.png",
+      link: "https://estimativo-ativa-j6mm.vercel.app",
+    },
+    {
+      image: "/totext.png",
+      link: "https://totext-nine.vercel.app",
+    },
   ];
 
   return (
@@ -34,7 +51,8 @@ const Projects = async () => {
               <CardProject
                 key={project.name}
                 project={project}
-                image={imageList[index]}
+                image={imageList[index].image}
+                link={imageList[index].link}
               />
             );
           })}

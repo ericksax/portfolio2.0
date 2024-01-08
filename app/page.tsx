@@ -71,14 +71,14 @@ export default function Home() {
             ideias e expandir nossa rede profissional.
           </article>
           <span className="flex items-center justify-evenly w-full mt-4 flex-wrap gap-8">
-            <Button
-              variant="outline"
-              className="gap-2 transition-all duration-200 ease-in-out hover:scale-105 "
+            <Link
+              href={" https://wa.me/5532999902406"}
+              className="border border-primary/50 flex px-4 py-2 items-center rounded gap-2 transition-all duration-200 ease-in-out hover:scale-105 "
             >
               Fale comigo!! <Send size={16} />
-            </Button>
+            </Link>
             <DefaultButton>
-              Baixar Curriculo
+              Baixar Currículo
               <DownloadIcon size={16} />
             </DefaultButton>
           </span>

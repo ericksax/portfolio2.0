@@ -1,6 +1,5 @@
 import { CardTech } from "@/components/cardTech";
 import { Wrapper } from "@/components/wrapper";
-import { Key } from "lucide-react";
 import React from "react";
 import {
   FaReact,
@@ -17,7 +16,23 @@ import {
   FaDocker,
   FaLinux,
 } from "react-icons/fa";
-
+import {
+  SiTypescript,
+  SiStyledcomponents,
+  SiChakraui,
+  SiBootstrap,
+  SiNextdotjs,
+  SiPostgresql,
+  SiMysql,
+  SiNestjs,
+  SiAngular,
+  SiPrisma,
+  SiSqlite,
+  SiPopos,
+  SiIonic,
+  SiGnubash,
+  SiComposer,
+} from "react-icons/si";
 const techList = [
   <FaReact size={40} color="#61DBFB" />,
   <FaNode size={40} color="#83CD29" />,
@@ -32,6 +47,21 @@ const techList = [
   <FaPython size={40} color="#3776AB" />,
   <FaDocker size={40} color="#2496ED" />,
   <FaLinux size={40} color="#FCC624" />,
+  <SiTypescript size={40} color="#007ACC" />,
+  <SiStyledcomponents size={40} color="#DB7093" />,
+  <SiChakraui size={40} color="#61DBFB" />,
+  <SiBootstrap size={40} color="#7952B3" />,
+  <SiNextdotjs size={40} color="#000000" />,
+  <SiPostgresql size={40} color="#336791" />,
+  <SiMysql size={40} color="#4479A1" />,
+  <SiNestjs size={40} color="#E0234E" />,
+  <SiAngular size={40} color="#DD0031" />,
+  <SiPrisma size={40} color="#2B4562" />,
+  <SiSqlite size={40} color="#7E7E7E" />,
+  <SiPopos size={40} color="#000000" />,
+  <SiIonic size={40} color="#000000" />,
+  <SiGnubash size={40} color="#000000" />,
+  <SiComposer size={40} color="#000000" />,
 ];
 
 const Techs = () => {
@@ -39,11 +69,18 @@ const Techs = () => {
     <Wrapper>
       <section className="max-w-4xl mx-auto">
         <h1 className="text-3xl text-foreground font-semibold mb-8 mt-16">
-          Sobre as tecnologias
+          Tecnologias
         </h1>
+        <div className="text-foreground text-lg border border-border rounded-lg p-pd1 mt-10">
+          <p className="pl-8">
+            <span>
+              Estas são algumas das tecnologias ou ferramentas que já utilizei.
+            </span>
+          </p>
+        </div>
         <div className="grid grid-cols-1 xs:grid-cols-2  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 flex-wrap justify-between text-foreground text-lg px-0 p-4 mt-8">
           {techList.map((tech) => {
-            return <CardTech key={techList}>{tech}</CardTech>;
+            return <CardTech key={tech.key}>{tech}</CardTech>;
           })}
         </div>
         <div className="text-foreground text-lg border border-border rounded-lg p-pd1 mt-10">
