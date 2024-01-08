@@ -25,12 +25,7 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Contato",
     href: "/contacts",
     description: "Onde e como você pode me encontrar.",
-  },
-  {
-    title: "Currículo",
-    href: "/contacts",
-    description: "Caso, precise está aqui meu currículo.",
-  },
+  }
 ];
 
 const RightMenu = () => {
