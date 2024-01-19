@@ -2,10 +2,8 @@ import { DefaultButton } from "@/components/defaultButton";
 import { Wrapper } from "@/components/wrapper";
 import {
   DownloadIcon,
-  GithubIcon,
-  Instagram,
-  Linkedin,
 } from "lucide-react";
+import {SiGithub, SiLinkedin, SiInstagram} from "react-icons/si";
 import Link from "next/link";
 import { SiWhatsapp } from "react-icons/si"
 export default function Home() {
@@ -37,17 +35,17 @@ export default function Home() {
             target="_blank"
           >
             <div className="hidden sm:flex gap-4 items-center text-foreground text-sm transition-all duration-200 ease-in-out hover:scale-105 hover:cursor-pointer">
-              <Linkedin size={32} />
+              <SiLinkedin size={32} />
               http://www.linkedin.com/in/erickfreitas-dev
             </div>
-            <Linkedin size={32} className="sm:hidden" />
+            <SiLinkedin size={32} className="sm:hidden" />
           </Link>
           <Link href={"https://github.com/ericksax"} target="_blank">
             <div className="hidden sm:flex gap-4 items-center text-foreground text-sm transition-all duration-200 ease-in-out hover:scale-105 hover:cursor-pointer">
-              <GithubIcon size={32} />
+              <SiGithub size={32} />
               https://github.com/ericksax
             </div>
-            <GithubIcon className="sm:hidden" />
+            <SiGithub size={32} className="sm:hidden" />
           </Link>
 
           <Link
@@ -55,10 +53,10 @@ export default function Home() {
             target="_blank"
           >
             <div className="hidden sm:flex gap-4 items-center text-foreground text-sm transition-all duration-200 ease-in-out hover:scale-105 hover:cursor-pointer">
-              <Instagram size={32} />
+              <SiInstagram size={32} />
               erick_freitas
             </div>
-            <Instagram size={32} className="sm:hidden" />
+            <SiInstagram size={32} className="sm:hidden" />
           </Link>
         </div>
         <aside className="flex flex-col h-full align-center items-center p-pd1 text-sm">
