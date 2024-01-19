@@ -7,7 +7,7 @@ const Sobre = () => {
       <section className="max-w-4xl mx-auto text-xl mt-16 text-justify ">
         <h1 className="text-headingClamp2 text-foreground font-semibold mb-8">
           Sobre mim
-          <span className="float-right text-[22px]"> 👨‍⚕️ -{">"} 👨‍💻 </span>{" "}
+          <span className="float-right text-[22px] "> 👨‍⚕️ -{">"} 👨‍💻 </span>{" "}
         </h1>
 
         <div className="mt-8 text-foreground text-articleClamp space-y-4 border border-border rounded-lg p-pd1">

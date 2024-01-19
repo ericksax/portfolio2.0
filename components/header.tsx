@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const Header = () => {
   return (
-    <header className="sticky index z-30 top-0 w-full bg-gray-900 border-b border-border h-16 leading-16">
+    <header className="sticky index z-30 top-0 w-full bg-gray-900 border-b border-border h-16 leading-16 dark:bg-transparent dark:backdrop-blur-xl">
       <Wrapper>
         <div className="flex max-w-4xl w-full items-center gap-manuGap justify-between mx-auto h-full">
           <div className="flex items-center gap-8">

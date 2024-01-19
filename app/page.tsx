@@ -11,9 +11,9 @@ import { SiWhatsapp } from "react-icons/si"
 export default function Home() {
   return (
     <Wrapper>
-      <section className="max-w-4xl mx-auto  mt-[72px]">
-        <h1 className=" text-headingClamp font-bold text-accent-foreground">
-          👋 Oi, eu sou Erick... Fullstack Developer!
+      <section className="max-w-4xl mx-auto  mt-4">
+        <h1 className=" text-headingClamp font-bold text-transparent bg-clip-text bg-gradient-to-r to-cyan-500 from-blue-900">
+         Olá, eu sou Erick... <br/> Fullstack Developer!  
         </h1>
         <article className="space-x-4 mt-8 ident-8 text-foreground text-articleClamp">
           Sou um apaixonado desenvolvedor web comprometido em criar experiências
@@ -24,9 +24,9 @@ export default function Home() {
         </article>
       </section>
 
-      <div className="max-w-4xl mx-auto mt-8 ">
-        <strong className="px-4 py-2 rounded-full bg-accent text-socialHeading">
-          Midias sociais e contato 💌 ☎{" "}
+      <div className="flex max-w-4xl mx-auto mt-8">
+        <strong className="px-3 py-1 rounded-full bg-accent text-socialHeading">
+          Midias sociais e contato ☎
         </strong>
       </div>
 

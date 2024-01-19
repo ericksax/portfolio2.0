@@ -65,7 +65,6 @@ module.exports = {
         articleClamp: "clamp(1rem, 1.8vw, 1.2rem)",
         socialHeading: "clamp(.8rem, 1.5vw, 1rem)",
         menuGap: "clamp(2rem, 1vw, 8rem)",
-
       },
       padding: {
         pd1: "clamp(1rem, 1.4vw, 2rem)",

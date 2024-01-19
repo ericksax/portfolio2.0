@@ -35,12 +35,12 @@ import {
 } from "react-icons/si";
 const techList = [
   {
-    symbol: <FaReact size={40} color="#61DBFB" />,
+    symbol: <FaReact size={40} color="#61DBFB"  />,
     key: "1",
     title: "React",
   },
   {
-    symbol: <FaNode size={40} color="#83CD29" />,
+    symbol: <FaNode size={40} color="#83CD29"/>,
     key: "2",
     title: "Node",
   },
@@ -61,7 +61,7 @@ const techList = [
   },
 
   {
-    symbol: <FaGithub size={40} color="#24292E" />,
+    symbol: <FaGithub size={40} color="#000000" />,
     key: "6",
     title: "GitHub",
   },
@@ -86,7 +86,7 @@ const techList = [
     title: "PHP",
   },
   {
-    symbol: <FaPython size={40} color="#3776AB" />,
+    symbol: <FaPython size={40} color="#3776AB"/>,
     key: "11",
     title: "Python",
   },
@@ -151,7 +151,7 @@ const techList = [
     title: "Prisma",
   },
   {
-    symbol: <SiSqlite size={40} color="#49a2d7" />,
+    symbol: <SiSqlite size={40} color="#49a2d7"/>,
     key: "24",
     title: "SQLite",
   },
@@ -162,13 +162,13 @@ const techList = [
   },
 
   {
-    symbol: <SiIonic size={40} color="#176bff" />,
+    symbol: <SiIonic size={40} color="#176bff"  />,
     key: "26",
     title: "Ionic",
   },
 
   {
-    symbol: <SiGnubash size={40} color="#293036" />,
+    symbol: <SiGnubash size={40} color="#000000" />,
     key: "27",
     title: "GNU Bash",
   },
