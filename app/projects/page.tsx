@@ -25,6 +25,10 @@ const Projects = async () => {
       image: "/totext.png",
       link: "https://totext-nine.vercel.app",
     },
+    {
+      image: "/nlwexpert.png",
+      link: "https://totext-nine.vercel.app",
+    },
   ];
 
   return (
