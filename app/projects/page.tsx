@@ -27,7 +27,7 @@ const Projects = async () => {
     },
     {
       image: "/nlwexpert.png",
-      link: "https://totext-nine.vercel.app",
+      link: "https://notes-sand-eight.vercel.app/",
     },
   ];
 
