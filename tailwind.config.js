@@ -59,6 +59,9 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      dropShadow: {
+        white: '0 2px 10px rgba(255, 255, 255, 0.5)',
+      },
       fontSize: {
         headingClamp: "clamp(2rem, 3.6vw, 4rem)",
         headingClamp2: "clamp(1.5rem, 1.6vw, 3rem)",

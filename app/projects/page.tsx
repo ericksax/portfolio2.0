@@ -15,7 +15,7 @@ const Projects = async () => {
     },
     {
       image: "/coffeeDelivery.png",
-      link: "https://coffee-delivery.vercel.app/",
+      link: "https://coffeedelivery-one.vercel.app/",
     },
     {
       image: "/foto.png",

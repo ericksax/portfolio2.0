@@ -3,7 +3,7 @@ import { Wrapper } from "@/components/wrapper";
 import {
   DownloadIcon,
 } from "lucide-react";
-import {SiGithub, SiLinkedin, SiInstagram} from "react-icons/si";
+import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 import Link from "next/link";
 import { SiWhatsapp } from "react-icons/si"
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
     <Wrapper>
       <section className="max-w-4xl mx-auto  mt-4">
         <h1 className=" text-headingClamp font-bold text-transparent bg-clip-text bg-gradient-to-r to-cyan-500 from-blue-900">
-         Olá, eu sou Erick... <br/> Fullstack Developer!  
+          Olá, eu sou Erick... <br /> Fullstack Developer!
         </h1>
         <article className="space-x-4 mt-8 ident-8 text-foreground text-articleClamp">
           Sou um apaixonado desenvolvedor web comprometido em criar experiências
